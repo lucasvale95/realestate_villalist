@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import Main from "../components/Main";
+import Completo from "../components/Completo";
 
 const RoutesMain = () => {
   return (
     <Routes>
-      <Route path="/" element={<Main />} />
+      <Route path="/" element={<Completo />} />
     </Routes>
   );
 };
